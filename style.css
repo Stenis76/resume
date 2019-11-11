@@ -1,0 +1,88 @@
+body {
+    background-color: #5A5560;
+    height: 100vh;
+    color: #9D8D8F;
+}
+a {
+    color: #9B786F;
+} 
+
+a:hover {
+    color: #FAED26;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #9D8D8F;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #9D8D8F;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #FAED26;
+}
+.btn-outline-success {
+    color: #FAED26;
+    border-color: #FAED26;
+}
+.btn-outline-success:hover {
+    color: #46344E;
+    background-color: #FAED26;
+    border-color: #9D8D8F;
+}
+.navbar-dark .navbar-toggler {
+    border-color: #9B786F;
+    color: #9B786F;
+  } 
+  .navbar-dark .navbar-toggler:focus, 
+  .navbar-dark .navbar-toggler:active,
+  .navbar-dark .navbar-toggler:hover {
+    border-color: #FAED26;
+    color: #FAED26;
+  } 
+.navbar-custom {
+    background-color: #46344E;
+}
+.jumbotron {
+    color: #FAED26;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.2)), url(./Resources/patrick-perkins-ETRPjvb0KM0-unsplash.jpg);
+
+}
+.jumbotron p {
+    color: white;
+}
+
+.btn-primary {
+    color: #FAED26;
+    background-color: #5A5560;
+    border-color: #FAED26;
+
+}
+
+.btn-primary:hover {
+    color: #5A5560;
+    background-color: #FAED26;
+    border-color: #46344E;
+
+}
+
+.test {
+    color: #FAED26;
+    color: #46344E;
+    color: #5A5560;
+    color: #9D8D8F;
+    color: #9B786F;
+    
+}
+.navbar-brand img {
+    height: 2rem;
+    border-radius: 10px;
+}
