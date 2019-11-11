@@ -1,7 +1,12 @@
 body {
     background-color: #5A5560;
     height: 100vh;
-    color: #9D8D8F;
+    color: white;
+    font-family: 'Noto Sans', 'Nunito','Nanum Gothic', sans-serif !important;
+   
+}
+h1 {
+    color: #FAED26; 
 }
 a {
     color: #9B786F;
@@ -52,7 +57,7 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.2)), url(./Resources/patrick-perkins-ETRPjvb0KM0-unsplash.jpg);
 
 }
