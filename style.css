@@ -57,7 +57,7 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 70vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.2)), url(./Resources/patrick-perkins-ETRPjvb0KM0-unsplash.jpg);
 
 }
@@ -90,4 +90,13 @@ a:hover {
 .navbar-brand img {
     height: 2rem;
     border-radius: 10px;
+}
+
+.footer .container{
+    background-color: #46344E;
+}
+.row .work_experience {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.2)),url(./Resources/ian-schneider-TamMbr4okv4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
 }
