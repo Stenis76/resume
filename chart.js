@@ -80,7 +80,7 @@ window.onload = function () {
                 label: 'Developer Skills',
                 backgroundColor: 'rgba(249, 235, 36, 0.3)',
                 borderColor: '#F9EB24',
-                data: [5, 5, 3, 2, 1, 1, 5, 3, 6,],
+                data: [5, 4, 3, 2, 1, 1, 5, 3, 6,],
                 borderWidth: 2,
                 barThickness: 'flex',
             }]
