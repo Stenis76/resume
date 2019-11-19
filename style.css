@@ -1,6 +1,5 @@
 body {
     background-color: #5A5560;
-    height: 100vh;
     color: white;
     font-family: 'Noto Sans', 'Nunito','Nanum Gothic', sans-serif !important;
    
@@ -57,9 +56,10 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.2)), url(./Resources/patrick-perkins-ETRPjvb0KM0-unsplash.jpg);
-
+    background-attachment: fixed;
+ 
 }
 .jumbotron p {
     color: white;
@@ -79,6 +79,9 @@ a:hover {
 
 }
 
+#profile_pic {
+box-shadow: 5px 5px 13px #9D8D8F;
+}
 .test {
     color: #FAED26;
     color: #46344E;
@@ -92,8 +95,9 @@ a:hover {
     border-radius: 10px;
 }
 
-.footer .container{
+footer{
     background-color: #46344E;
+    padding-top: 2rem;
 }
 .row .work_experience {
     background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.2)),url(./Resources/ian-schneider-TamMbr4okv4-unsplash.jpg);
@@ -101,37 +105,25 @@ a:hover {
     background-position: center;
 }
 
-ul.timeline {
-    list-style-type: none;
-    position: relative;
+.twitter-timeline {
+    /* background-color: #9B786F; */
 }
-ul.timeline:before {
-    content: ' ';
-    background: #d4d9df;
-    display: inline-block;
-    position: absolute;
-    left: 29px;
-    width: 2px;
-    height: 100%;
-    z-index: 400;
-}
-ul.timeline > li {
-    margin: 20px 0;
-    padding-left: 20px;
-}
-ul.timeline > li:before {
-    content: ' ';
-    background: white;
-    display: inline-block;
-    position: absolute;
-    border-radius: 50%;
-    border: 3px solid #22c0e8;
-    left: 20px;
-    width: 20px;
-    height: 20px;
-    z-index: 400;
+footer.timeline-Footer.u-cf {
+    background-color: white;
 }
 
-.twitter-timeline {
-    
+
+.anim {
+    position: relative;
+    top: 0;
+    margin-left: 500px;
+    width: 300px;
+    background-color: #ccc;
+}
+.fadein {
+    opacity: 0;
+}
+.slideinleft {
+	margin-left:-300px;
+	max-width:100%;
 }
