@@ -56,7 +56,7 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.2)), url(./Resources/patrick-perkins-ETRPjvb0KM0-unsplash.jpg);
     background-attachment: fixed;
  
@@ -105,9 +105,6 @@ footer{
     background-position: center;
 }
 
-.twitter-timeline {
-    /* background-color: #9B786F; */
-}
 footer.timeline-Footer.u-cf {
     background-color: white;
 }
