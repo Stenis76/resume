@@ -10,17 +10,17 @@ $(function() {
 
     $(window).scroll(function(){
         //Scroll to top
+        // TODO: Add an event that fades out the "scrolltop" if your not scrolling, 
         if ($(this).scrollTop() > 100 ) {
-            $('.scrolltop:hidden').stop(true, true).fadeIn();
+            $('.scrolltop').fadeIn();
         } else {
-            $('.scrolltop').stop(true, true).fadeOut();
+            $('.scrolltop').fadeOut();
         }
-        // TODO: Add an event that fades out the "scrolltop" if your not scrolling
-
         $(function(){
             $(".scroll").click(function(){
-                $("html,body").animate({scrollTop:$(".navbar").offset().top},"500");return false;});
+                $("html,body").animate({scrollTop:0},"500");return false;});
         });
+
         // Fade in divs
         /**
          * The value of how many pixels have been scrolled from the top

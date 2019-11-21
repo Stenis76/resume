@@ -2,7 +2,6 @@ body {
     background-color: #5A5560;
     color: white;
     font-family: 'Noto Sans', 'Nunito','Nanum Gothic', sans-serif !important;
-   
 }
 h1 {
     color: #FAED26; 
@@ -51,15 +50,16 @@ a:hover {
 .navbar-custom {
     background-color: #46344E;
 }
+
 .jumbotron {
     color: #FAED26;
     background-position: center;
+    
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.2)), url(./Resources/patrick-perkins-ETRPjvb0KM0-unsplash.jpg);
     background-attachment: fixed;
- 
 }
 .jumbotron p {
     color: white;
@@ -69,20 +69,27 @@ a:hover {
     color: #FAED26;
     background-color: #5A5560;
     border-color: #FAED26;
-
 }
 
 .btn-primary:hover {
     color: #5A5560;
     background-color: #FAED26;
     border-color: #46344E;
-
 }
 
+.modal-header  {
+    background-color: #9B786F;
+}
+.modal-body {
+    background-color: #9B786F;
+}
+.modal-footer {
+    background-color: #9B786F;
+}
 #profile_pic {
 box-shadow: 5px 5px 13px #9D8D8F;
 }
-.test {
+#coloscheme {
     color: #FAED26;
     color: #46344E;
     color: #5A5560;
@@ -104,14 +111,7 @@ footer.timeline-Footer.u-cf {
     background-color: white;
 }
 
-
-.anim {
-    position: relative;
-    top: 0;
-    margin-left: 500px;
-    width: 300px;
-    background-color: #ccc;
-}
+/* animated divs */
 
 .animleft {
     opacity: 0;
@@ -144,11 +144,11 @@ footer.timeline-Footer.u-cf {
 }
 .scroll {
 	position:absolute;
-	right:20px;
-    bottom:20px;
+	right:1rem;
+    bottom:1rem;
     opacity: 0.4;
 	background:#9D8D8F;
-	padding:20px;
+	padding:1rem;
 	text-align: center;
 	margin: 0 0 0 0;
 	cursor:pointer;
@@ -169,7 +169,7 @@ footer.timeline-Footer.u-cf {
 	padding-top:-10px;
 }
 .scroll .fa {
-	font-size:30px;
+	font-size: 2rem;
 	margin-top:-5px;
 	margin-left:1px;
 	transition: 0.5s;
