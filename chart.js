@@ -1,10 +1,17 @@
 
 
-window.onload = function () {
+window.onload = load;
+/**
+ * Loads both charts
+ */
+function load() {
+    skillChart();
+    devChart();
+}
 
-    const ctx = document.getElementById('myChart').getContext('2d');
-    Chart.defaults.global.defaultFontColor = '#FFF'
-    window.myRadar = new Chart(ctx, {
+function skillChart() {
+    Chart.defaults.global.defaultFontColor = '#FFF';
+    new Chart(document.getElementById('myChart').getContext('2d'), {
         // The type of chart we want to create
         type: 'radar',
 
@@ -65,11 +72,10 @@ window.onload = function () {
             }
         }
     });
-
-
-    var G2 = document.getElementById('myChart2').getContext('2d');
+}
+function devChart(){
     Chart.defaults.global.defaultFontColor = '#F9EB24';
-    window.myBar = new Chart(G2, {
+    new Chart(document.getElementById('myChart2').getContext('2d'), {
         // The type of chart we want to create
         type: 'horizontalBar',
 
@@ -99,7 +105,6 @@ window.onload = function () {
                 },
             },
             scales: {
-                
                 xAxes: [{
                     ticks: {
                         max: 10,

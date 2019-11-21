@@ -117,10 +117,67 @@ footer.timeline-Footer.u-cf {
     width: 300px;
     background-color: #ccc;
 }
-.fadein {
+
+.animleft {
     opacity: 0;
+    transform: translate(300px, 0); 
+    transition: all 1s;
+    }
+.animright {
+    opacity: 0;
+    transform: translate(-300px, 0px); 
+    transition: all 1s;
+    }
+    
+.animleft.visible {
+    opacity: 1;
+    transform: translate(0, 0); 
+    }
+.animright.visible {
+    opacity: 1;
+    transform: translate(0, 0); 
+    }
+
+/* scroll to top */
+.scrolltop {
+	display:none;
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	bottom:20px;
+	right:10px;	
 }
-.slideinleft {
-	margin-left:-300px;
-	max-width:100%;
+.scroll {
+	position:absolute;
+	right:20px;
+	bottom:20px;
+	background:#b2b2b2;
+	background:rgba(178,178,178,0.7);
+	padding:20px;
+	text-align: center;
+	margin: 0 0 0 0;
+	cursor:pointer;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
+.scroll:hover {
+	background:rgba(178,178,178,1.0);
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
+.scroll:hover .fa {
+	padding-top:-10px;
+}
+.scroll .fa {
+	font-size:30px;
+	margin-top:-5px;
+	margin-left:1px;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 	
 }
