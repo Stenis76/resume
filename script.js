@@ -9,7 +9,6 @@ $(function() {
     });
 
     $(window).scroll(function(){
-    
         //Scroll to top
         if ($(this).scrollTop() > 100 ) {
             $('.scrolltop:hidden').stop(true, true).fadeIn();
@@ -22,7 +21,6 @@ $(function() {
             $(".scroll").click(function(){
                 $("html,body").animate({scrollTop:$(".navbar").offset().top},"500");return false;});
         });
-        
         // Fade in divs
         /**
          * The value of how many pixels have been scrolled from the top
@@ -35,11 +33,10 @@ $(function() {
          */
         const pageBottom = pageTop + $(window).height();
         /**
-         * The divs tha going to be animated
+         * The divs that is going to be animated
          * @type {string}
          */
         const tags = $("div.animleft, div.animright");
-    
         for (var i = 0; i < tags.length; i++) {
             var tag = tags[i];
     

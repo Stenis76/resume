@@ -99,11 +99,6 @@ footer{
     background-color: #46344E;
     padding-top: 2rem;
 }
-.row .work_experience {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.2)),url(./Resources/ian-schneider-TamMbr4okv4-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-}
 
 footer.timeline-Footer.u-cf {
     background-color: white;
@@ -150,9 +145,9 @@ footer.timeline-Footer.u-cf {
 .scroll {
 	position:absolute;
 	right:20px;
-	bottom:20px;
-	background:#b2b2b2;
-	background:rgba(178,178,178,0.7);
+    bottom:20px;
+    opacity: 0.4;
+	background:#9D8D8F;
 	padding:20px;
 	text-align: center;
 	margin: 0 0 0 0;
@@ -163,7 +158,8 @@ footer.timeline-Footer.u-cf {
 	-o-transition: 0.5s; 		
 }
 .scroll:hover {
-	background:rgba(178,178,178,1.0);
+    background:#9B786F;
+    opacity: 1;
 	transition: 0.5s;
 	-moz-transition: 0.5s;
 	-webkit-transition: 0.5s;
