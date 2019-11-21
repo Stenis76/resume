@@ -1,13 +1,15 @@
 # resume
 This resume is an assignment for lab2
 
+I´ve built it with bootstrap and Jquery.
 
-I´ve built it with bootstrap and Jquery
-
-
+Link to github: https://github.com/Stenis76/resume
 here is the demo page: https://stenis76.github.io/resume/
 
-cred: 
+Known issues:
+
+The home button doesnt do anything yet (the links in the nav is for exapnding the page later on).
+Running the webpage in Safari makes some pictures go nuts. so use chrome.
 
 
 Laboration 2
