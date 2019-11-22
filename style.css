@@ -1,5 +1,6 @@
 body {
     background-color: #5A5560;
+    margin: 0;
     color: white;
     font-family: 'Noto Sans', 'Nunito','Nanum Gothic', sans-serif !important;
 }
@@ -134,7 +135,7 @@ footer.timeline-Footer.u-cf {
     }
 
 /* scroll to top */
-.scrolltop {
+/* .scrolltop {
 	display:none;
 	width:100%;
 	margin:0 auto;
@@ -176,4 +177,4 @@ footer.timeline-Footer.u-cf {
 	-moz-transition: 0.5s;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s; 	
-}
+} */
