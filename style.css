@@ -134,6 +134,11 @@ footer.timeline-Footer.u-cf {
     transform: translate(0, 0); 
     }
 
+    /* Safaribugg */
+.row .safari {
+    align-items: flex-start;
+}
+
 /* scroll to top */
 /* .scrolltop {
 	display:none;
